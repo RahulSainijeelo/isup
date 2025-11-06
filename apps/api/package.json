@@ -3,6 +3,9 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "dev":"bun ./src/index.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "@repo/typescript-config": "*"
@@ -12,6 +15,7 @@
   },
   "dependencies": {
     "@types/express": "^5.0.5",
+    "@repo/store": "*",
     "express": "^5.1.0"
   }
 }
